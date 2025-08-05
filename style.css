@@ -68,6 +68,11 @@ i{
     border: 5px solid #989bff;
     
 }
+.get:hover{
+  box-shadow: 0 0 50px #2f337a49;
+  
+    
+}
 
 .con {
     border: none;
