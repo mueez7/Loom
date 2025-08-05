@@ -66,12 +66,13 @@ i{
     font-size: 0.91rem;
     border: none;
     border: 5px solid #989bff;
+    transition: 0.2s ease-in-out;
+    
     
 }
 .get:hover{
-  box-shadow: 0 0 50px #2f337a49;
-  
-    
+  box-shadow: 0 0 20px #2f337a73;
+  transform: scale(1.1);
 }
 
 .con {
@@ -83,8 +84,13 @@ i{
     background-color: #d1d1f759;
     color: #545cdc;
     font-size: 0.91rem;
+    transition: 0.2s ease-in-out;
 }
 
+.con:hover{
+  box-shadow: 0 0 20px #2f337a73;
+  transform: scale(1.1);
+}
 .get2{
     width: 180px;
     height: 65px;
@@ -96,19 +102,29 @@ i{
     font-weight: 600;
     border: none;
     border: 5px solid #989bff;
+    transition: 0.2s ease-in-out;
 
+}
+.get2:hover{
+  box-shadow: 0 0 20px #2f337a73;
+  transform: scale(1.1);
 }
 .install{
      border: none;
     height: 60px;
     width: 250px;
     border-radius: 50px;
-    margin-left: 10px;
+    margin-left: 20px;
     background-color: #f0f0ff;
     color: #545cdc;
     font-size: 0.91rem;
     font-weight: 700;
+    transition: 0.2s ease-in-out;
 
+}
+.install:hover{
+  box-shadow: 0 0 20px #2f337a73;
+  transform: scale(1.1);
 }
 
 .hero {
@@ -334,7 +350,12 @@ i{
     font-weight: 600;
     border: none;
     border: 5px solid #3c3587;
+    transition: 0.2s ease-in-out;
     
+}
+.get3:hover{
+  box-shadow: 0 0 20px #6068ff73;
+  transform: scale(1.1);
 }
 
 .card{
@@ -346,6 +367,12 @@ i{
   flex-direction: column;
   align-items: center;
   padding: 40px 0px 40px 0px;
+  transition: 0.2s ease-in-out;
+}
+
+.card:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #6068ff73;
 }
 .card h3 {
   margin-top:50px;
@@ -368,6 +395,8 @@ i{
   height: 170px;
   border-radius: 15px;
   background-color: #acb0ff;
+  background-position: center;
+  background-size: cover;
 }
 
 .row{
