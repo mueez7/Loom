@@ -372,7 +372,7 @@ i{
 
 .card:hover{
   transform: scale(1.1);
-  box-shadow: 0 0 20px #6068ff73;
+  box-shadow: 0 0 25px #787fff52;
 }
 .card h3 {
   margin-top:50px;
