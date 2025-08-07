@@ -17,6 +17,7 @@ body{
     justify-content: space-between;
     
     
+    
 }
 .yoyo{
   border-radius: 40px;
@@ -294,6 +295,8 @@ i{
   height: 500px;
   width: 500px;
   border-radius: 50px;
+  box-shadow: 0 4px 8px #130d2428;
+
 }
 .head2{
   display: flex;
